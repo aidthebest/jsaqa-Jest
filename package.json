@@ -1,0 +1,39 @@
+{
+  "name": "jestplaywright",
+  "jest": {
+    "coverageThreshold": {
+      "*.js": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      },
+      "*.jsx": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    },
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "coverage"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "jest",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
+  },
+  "keywords": [
+    "jest",
+    "playwright"
+  ],
+  "author": "Alexander Mizyukin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "prettier": "2.4.1"
+  }
+}
