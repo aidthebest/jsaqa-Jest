@@ -15,7 +15,7 @@ describe("Books names test suit", () => {
     ]);
   });
 
-  it("Books names should be sorted in ascending order", () => {
+  it("Sorting should not work", () => {
     expect(sorting.sortByName(["a", "a", "a"])).toEqual(["a", "a", "a"]);
   });
 });
